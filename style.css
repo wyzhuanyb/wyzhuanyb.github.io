@@ -116,6 +116,7 @@ body{
   width: 100%;
   padding: 14px;
   font-size: 24px;
+  margin-top: 5px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -124,7 +125,7 @@ body{
   background-color: rgb(155, 212, 115);
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px #999;
+  box-shadow: 0 9px rgb(202, 202, 202);
 }
 
 .container button:hover {background-color: #4fca53}
