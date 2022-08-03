@@ -11,15 +11,16 @@ body{
   justify-content: center;
   padding: 0 10px;
   min-height: 100vh;
-  background: rgb(192, 245, 155);
+  background: rgb(241, 239, 239);
 }
 .container{
   max-width: 690px;
   width: 100%;
   padding: 30px;
   background: #fff;
-  border-radius: 7px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.01);
+  border-radius: 7px,color #3e8e41;
+  border-color: #3e8e41;
+  box-shadow: 0 10px 20px rgba(251, 246, 246, 0.01);
 }
 .wrapper{
   border-radius: 5px;
@@ -114,14 +115,24 @@ body{
 .container button{
   width: 100%;
   padding: 14px;
-  outline: none;
-  border: none;
-  color: #fff;
+  font-size: 24px;
   cursor: pointer;
-  margin-top: 20px;
-  font-size: 17px;
-  border-radius: 5px;
-  background: rgb(164, 241, 109);
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(155, 212, 115);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.container button:hover {background-color: #4fca53}
+
+.container button:active {
+  background-color: #38ca3d;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 @media (max-width: 660px){
   .container{
