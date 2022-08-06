@@ -4,11 +4,14 @@ const transBtn = document.querySelector("button");
 
 console.log("To text this app, you could enter: سەكرىۋال، دەپ تىللىغىنىچە قايتىپ تى")
 
+
 //Library function to store language words. 
 function wylibrary(text, result) {
   for (let i in text) {
-    
-    //这里是测试，输入I 或者i 将自动转换成“我”
+
+ /*******************************************************************/
+
+
     if (text[i] === "چ") {
       result += "tʃ";
     }
@@ -208,5 +211,3 @@ transBtn.addEventListener("click", () => {
   outputVal.value = result;
 
 })
-
-
